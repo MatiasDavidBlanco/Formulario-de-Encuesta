@@ -1,0 +1,135 @@
+*{
+
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	
+}
+body {
+    
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKS3isVSWmV1PI51vKd1oZshLd9eBzGrsEdEkBpgc31vDwu1eXeUQ_3-6Ls-N_MnCfrjw&usqp=CAU");
+    background-size: 100vw 100vh;
+    background-attachment:fixed;
+    margin:0;
+}
+
+#main{
+    text-align:center;
+    color:white;
+    font-family: Quicksand, sans-serif;
+    width:100%;
+    text-shadow: -1px 2px 4px rgba(0,0,0,0.37);
+
+}
+
+#title{
+    font-size:60px;
+    text-shadow: -1px 2px 4px rgba(0,0,0,0.37);
+    
+    
+}
+
+#description{
+    font-size:20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: -1px 2px 4px rgba(0,0,0,0.37);
+
+    
+}
+.label{
+    font-size: 15px;
+}
+
+.input{
+
+    width:100%;
+    height:25px;
+    margin-top:10px;
+    border-radius: 4px;
+}
+
+
+form{
+    background-color: rgba(84, 145, 187, 0.3);
+    width: 800px;
+    margin: auto;
+    border-radius:10px;
+    padding:10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom:30px;
+    font-size: 20px;
+    font-family: Quicksand, sans-serif;
+    font-weight: bold;
+    color: white;
+    -webkit-box-shadow: 3px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 10px 5px 0px rgba(0,0,0,0.75);
+    
+}
+
+#dropdown{
+    
+    width:100%;
+    height:25px;
+    margin-top:10px;
+    font-family: Quicksand, sans-serif;
+    color:black;
+    font-weight: bold;
+}
+    
+.op {
+    width:100%;
+    font-weight: bold;
+}
+
+#submit{
+    width:100%;
+    height:45px;
+    background-color: rgba(188, 240, 151, 0.3);
+    color:white;
+    font-family: Quicksand, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: -1px 1px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 5px 0px rgba(0,0,0,0.75);
+
+    
+}
+
+#submit:hover{
+    cursor:pointer;
+    background-color: rgba(37, 223, 223, 0.699);
+    color: white;
+}
+
+textarea{
+    min-height:100px;
+    max-height:200px;
+    max-width:100%;
+    min-width:100%;
+    border-radius: 5px;
+
+}
+
+@media (max-width:460px){
+    #survey-form{
+    width:95%;
+    }
+    #title{
+    font-size:30px;
+    }
+    
+    #description{
+      font-size:13px;
+       
+  }
+
+  .op {
+    width:100%;
+    font-weight: bold;
+}
+}
